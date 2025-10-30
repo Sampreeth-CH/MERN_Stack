@@ -6,8 +6,8 @@ const PORT = 3000;
 
 app.use(express.json());
 
-// the originAgentClusterl url that was copied is mongodb+srv://sampreethchsampreethch_db_user:vhL8XynsFcfTkRaW@sampreeth.9iyksjm.mongodb.net/ add the database  at the end like test.db
-const mongoURI = "mongodb+srv://sampreethchsampreethch_db_user:vhL8XynsFcfTkRaW@sampreeth.9iyksjm.mongodb.net/test"
+
+const mongoURI = "use your url/test"
 
 mongoose.connect(mongoURI).then(()=>{
     console.log("Connected to MongoDB");
